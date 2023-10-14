@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+.nav {
+    margin-top: 1em;
+}
+
+.list-item {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.event {
+    margin-bottom: 2em;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 0.5em;
+}
+
+form label,
+form select,
+form input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+form select,
+form input {
+    width: 100%;
+    padding: 0.5em;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+.home {
+    background: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.social-handles {
+    text-align: left;
+    padding-left: 1%;
+}
+.text-1 {
+    text-align: left;
+    font-size: small;
+}
+.team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
