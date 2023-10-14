@@ -3,53 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlumniConnect+</title>
+    <title>AlumniConnect++</title>
     <link rel="icon" type="image/png" class="icon" href="icon.png">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <!-- Logo, navigation, etc. -->
-        <p>Discover and join upcoming events to connect and learn.</p>
+        <h1>AlumniConnect++</h1>
+        <nav class="navv">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="home">
             <h1>Welcome to University Alumni Events!</h1>
-            <div>
+            <div class="home-2">
                 <span>Description:</span>
                 <p>
                     AlumniConnect+ is the dedicated hub for our esteemed university alumni community. It's a platform aimed at fostering a strong bond among alumni and providing a seamless experience to explore and engage in upcoming events.
                 </p>
-                <nav class="nav">
-                    <ul class="list">
-                        <li>
-                            <a class="list-item">Community Building</a>
-                        </li>
-                        <li>
-                            <a class="list-item">Professional Growth</a>
-                        </li>
-                        <li>
-                            <a class="list-item">Nurturing Relationships</a>
-                        </li>
-                        <li>
-                            <a class="list-item">Information Hub</a>
-                        </li>
-                        <li>
-                            <a class="list-item">Enhanced Communication</a>
-                        </li>
+                <div class="section-body">
+                    <ul class="row">
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Community Building</a></h3>
+                        </div>
+                      </li>
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Professional Growth</a></h3>
+                        </div>
+                      </li>
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Nurturing Relationships</a></h3>
+                        </div>
+                      </li>
                     </ul>
-                </nav>
+                    <ul class="row">
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Information Hub</a></h3>
+                        </div>
+                      </li>
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Career Development </a></h3>
+                        </div>
+                      </li>
+                      <li class="col-1-3">
+                        <div class="card-services">
+                          <h3 class="card-title"><a href="#">Enhanced Communication</a></h3>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
             </div>
         </section>
 
         <section id="events">
-            <h2>Upcoming Events</h2>
+            <h2 class="uevents">Upcoming Events</h2>
             <div>
                 <section class="Professional Development">
-                    <h3>Professional Development</h3>
-                    <div>
+                    <h3 class="camevents">Professional Development</h3>
+                    <div class="prodev">
                         <div class="event">
+                            <img src="profession1.jpg">
                             <h4>Conferences, Workshops, and Seminars.</h4>
                             <p>Date: [Eve/nt Date]</p>
                             <p>Time: [Event Time]</p>
@@ -57,13 +82,15 @@
                             <p>Description: Engage in events featuring industry experts, thought leaders, and peers where you can discuss the latest trends, share experiences, and gain insights through presentations, workshops, and panel discussions.</p>
                         </div>
                         <div class="event">
-                            <h4>Vocational Training and Mentoring</h4>
+                            <img src="profession2.jpg">
+                            <h4>Vocational Training and Mentoring.</h4>
                             <p>Date: [Event Date]</p>
                             <p>Time: [Event Time]</p>
                             <p>Venue: [Event Venue]</p>
                             <p>Description: Participate in specialized vocational training and mentorship programs aimed at honing specific skills and competencies, guided by experienced professionals to help you succeed in your chosen career path.</p>
                         </div>
                         <div class="event">
+                            <img src="profession3.jpg">
                             <h4>Networking Events and Groups.</h4>
                             <p>Date: 22nd August, 2023</p>
                             <p>Time: 12am - 3pm</p>
@@ -73,24 +100,27 @@
                     </div>
                 </section>
                 <section class="Campus Events">
-                    <h3>Campus Events</h3>
-                    <div>
+                    <h3 class="camevents">Campus Events</h3>
+                    <div class="prodev">
                         <div class="event">
-                            <h4>Campus Community Event</h4>
-                            <p>Date: [Eve/nt Date]</p>
-                            <p>Time: [Event Time]</p>
-                            <p>Venue: [Event Venue]</p>
+                            <img src="profession4.jpg">
+                            <h4>Campus Community Event.</h4>
+                            <p>Date: 29 September, 2023</p>
+                            <p>Time: 1pm - 4pm</p>
+                            <p>Venue: ALU Leadership Center</p>
                             <p>Description: Campus community events are designed to unite and engage members of a campus or educational institution. These events aim to foster a sense of belonging, camaraderie, and collaboration among students, faculty, staff, and other stakeholders.</p>
                         </div>
                         <div class="event">
+                            <img src="profession2.jpg">
                             <h4>Administrative Event.</h4>
-                            <p>Date: [Event Date]</p>
-                            <p>Time: [Event Time]</p>
-                            <p>Venue: [Event Venue]</p>
+                            <p>Date: 27 September, 2023</p>
+                            <p>Time: 10am - 1pm</p>
+                            <p>Venue: Kenya & Burundi</p>
                             <p>Description: Administrative events pertain to organizational matters and often involve meetings, training sessions, or discussions related to policies, procedures, and the efficient functioning of an institution or organization.</p>
                         </div>
                         <div class="event">
-                            <h4>Public Event</h4>
+                            <img src="profession3.jpg">
+                            <h4>Public Event.</h4>
                             <p>Date: 22nd August, 2023</p>
                             <p>Time: 12am - 3pm</p>
                             <p>Venue: ALU Leadership Center</p>
@@ -107,44 +137,78 @@
             <h2>About Us</h2>
             <p>Welcome to AlumniConnect+! We are a community dedicated to fostering strong connections and meaningful collaborations among our esteemed university alumni. Our aim is to create a platform where you can engage, learn, and grow both personally and professionally.</p>
             <p>Explore our events, connect with fellow alumni, and make a difference in the community. Let's make AlumniConnect+ a vibrant space where memories are cherished and futures are shaped.</p>
+            <div class="team">
+                <div class="member">
+                    <img src="Bruce.jpg" alt="Member 1">
+                    <h3>John Doe</h3>
+                    <p>Team Lead</p>
+                </div>
+                <div class="member">
+                    <img src="Nannie.jpg" alt="Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Head Designer</p>
+                </div>
+                <div class="member">
+                    <img src="philip.jpg" alt="Member 2">
+                    <h3>Phillip Massey</h3>
+                    <p>Associate designer</p>
+                </div>
+                <div class="member">
+                    <img src="henry.jpg" alt="Member 2">
+                    <h3>Bruce Walters</h3>
+                    <p>Web developer</p>
+                </div>
+                <div class="member">
+                    <img src="person.jpg" alt="Member 2">
+                    <h3>Henry Cavill</h3>
+                    <p>Recorder</p>
+                </div>
+            </div>
         </section>
 
+       <!--contact form-->
+       <section id="contact">
         <section id="contact">
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>If you have any inquiries or need assistance, please feel free to reach out to us:</p>
+            <h1>Apply for Events</h1>
+            <p>You can for any interested events by filling out the form below:</p>
             
-                <!-- Add social media handles -->
+            <form action="#" method="post" id="contactForm">
+                <form action="#" method="post" id="contactForm">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+                    <label for="event">Select Event:>Which option best describes your intersted in?</label>
+                    <select id="event" name="event">
+                        <option value="Event 0">None</option>
+                        <option value="Event 1">Conferences, Workshops, and Seminars./option>
+                        <option value="Event 2">Vocational Training and Mentoring.</option>
+                        <option value="Event 3">Networking Events and Groups.</option>
+                        <option value="Event 4">Campus Community Event.</option>
+                        <option value="Event 5">Administrative Event.</option>
+                        <option value="Event 6">Public Event.</option>
+                    </select><br><br>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Enter your comments here..." required>Any comments or suggestions?</textarea>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+    </main>
+
+    <footer>
+        <h2>Contact Us</h2>
+                <p class="text-1">If you have any inquiries or need assistance, please feel free to reach out to us:</p>
                 <ul class="social-handles">
                     <li><a href="https://facebook.com/example" target="_blank">Facebook</a></li>
                     <li><a href="https://twitter.com/example" target="_blank">Twitter</a></li>
                     <li><a href="https://linkedin.com/in/example" target="_blank">LinkedIn</a></li>
                     <!-- Add more social media handles as needed -->
                 </ul>
-            
-                <p>You can also contact us by filling out the form below:</p>
-                
-                <form action="#" method="post" id="contactForm">
-                    <form action="#" method="post" id="contactForm">
-                        <label for="name">Full Name:</label>
-                        <input type="text" id="name" name="name" required>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                        
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-                        
-                        <button type="submit">Submit</button>
-                    </form>
-                </form>
-            </section>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Footer content -->
+        <p>&copy; 2023 AlumniConnect. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-
