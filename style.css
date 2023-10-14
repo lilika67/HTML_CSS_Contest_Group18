@@ -123,3 +123,15 @@ footer {
     font-family: sans-serif;
     text-align: center;
 }
+
+footer {
+    text-align: center; /* Center the icons */
+    width: 100%;
+    padding: 18px 0;
+}
+
+footer img {
+    width: 30px; /* Adjust the size */
+    height: 30px;
+    margin: 0 10px; /* Adjust the space */
+}
